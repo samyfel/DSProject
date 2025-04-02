@@ -1,0 +1,44 @@
+{
+  "crypto_id": "ethereum",
+  "current_price": 1862.4679814932338,
+  "prediction_time": "2025-04-02 17:34:44",
+  "price_predictions": {
+    "next_day": {
+      "percent_change": 3.56,
+      "predicted_price": 1928.82
+    },
+    "3d": {
+      "percent_change": 6.71,
+      "predicted_price": 1987.37
+    },
+    "7d": {
+      "percent_change": 7.28,
+      "predicted_price": 1998.07
+    },
+    "14d": {
+      "percent_change": 18.06,
+      "predicted_price": 2198.85
+    },
+    "30d": {
+      "percent_change": 9.73,
+      "predicted_price": 2043.75
+    }
+  },
+  "direction_predictions": {
+    "next_day": {
+      "probability_up": 79.0
+    },
+    "3d": {
+      "probability_up": 69.0
+    },
+    "7d": {
+      "probability_up": 84.36
+    },
+    "14d": {
+      "probability_up": 83.36
+    },
+    "30d": {
+      "probability_up": 99.71
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "crypto_id": "bitcoin",
+  "current_price": 84502.45525316677,
+  "prediction_time": "2025-04-02 17:34:43",
+  "price_predictions": {
+    "next_day": {
+      "percent_change": -0.93,
+      "predicted_price": 83713.85
+    },
+    "3d": {
+      "percent_change": 3.33,
+      "predicted_price": 87317.3
+    },
+    "7d": {
+      "percent_change": -2.12,
+      "predicted_price": 82710.41
+    },
+    "14d": {
+      "percent_change": 3.88,
+      "predicted_price": 87783.23
+    },
+    "30d": {
+      "percent_change": 3.14,
+      "predicted_price": 87154.74
+    }
+  },
+  "direction_predictions": {
+    "next_day": {
+      "probability_up": 57.0
+    },
+    "3d": {
+      "probability_up": 53.0
+    },
+    "7d": {
+      "probability_up": 65.79
+    },
+    "14d": {
+      "probability_up": 77.09
+    },
+    "30d": {
+      "probability_up": 71.12
+    }
+  }
+}
