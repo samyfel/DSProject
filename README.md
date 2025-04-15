@@ -1,5 +1,50 @@
 # Cryptocurrency Price Prediction System
 
+## 🚀 Quick Start - Frontend Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+
+### Frontend Setup Instructions
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
+
+The frontend application should now be running! If you encounter any issues:
+- Make sure all dependencies are installed correctly
+- Check if port 3000 is available
+- Clear npm cache if needed: `npm cache clean --force`
+- Delete node_modules and reinstall: `rm -rf node_modules && npm install`
+
+### Troubleshooting Common Issues
+- **"Module not found" errors**: Run `npm install` again
+- **Port 3000 already in use**: Kill the process using the port or use a different port:
+  ```bash
+  npm start -- --port 3001
+  ```
+- **Compilation errors**: Clear the cache and restart:
+  ```bash
+  rm -rf node_modules/.cache
+  npm start
+  ```
+
 ## Overview
 
 This project implements a comprehensive cryptocurrency price prediction system that uses historical data and machine learning techniques to forecast future price movements of Bitcoin and Ethereum. The system collects data from CoinGecko's API, processes it, trains various machine learning models, and generates predictions for different time horizons.
